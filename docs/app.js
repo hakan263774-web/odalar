@@ -2,7 +2,7 @@
 (function () {
   const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  document.querySelectorAll(".room, .door, .win, .portal, .limb, .misreg, .seal").forEach((el) => {
+  document.querySelectorAll(".room, .door, .win, .portal, .limb, .misreg, .seal, .scrap").forEach((el) => {
     el.addEventListener("mouseenter", () => {
       el.classList.add("glitch");
       window.setTimeout(() => el.classList.remove("glitch"), 320);

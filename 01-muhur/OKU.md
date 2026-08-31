@@ -2,7 +2,9 @@
 
 Oda: mühür.
 
-Burada ürün yok. Kaynak yok. `integrity.exe` yok. Hash listesi yok.
+Burada ürün yok. Kaynak yok. `integrity.exe` yok. Hash listesi yok. Ağaç yok.
+
+Boş mum. Çekmece kilitli. Yalnız işaret — imza değil.
 
 Private repo adı, işaret olarak: **`hakan263774-web/kimi-calisma`**. Kapı 07 kilitli.
 
@@ -15,3 +17,4 @@ Dürüstlük:
 - Bası odasında ürün yok, tarih var.
 
 Başka birinin sitesi, LinkedIn'i, eski GitHub'ı bu odaya yapıştırılmaz.
+

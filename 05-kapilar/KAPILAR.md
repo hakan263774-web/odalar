@@ -4,6 +4,8 @@ Kapılar. Odalar durur; kapılar dışarı açılır.
 
 Gerçek href. Yürü.
 
+Menteşe isli. Anahtar uymuyor. Tablo şişmez.
+
 ## Açık
 
 | no | kapı | nere | not |
@@ -29,3 +31,4 @@ Gerçek href. Yürü.
 | 7 | Mühür kasa | https://github.com/hakan263774-web/kimi-calisma | kilitli kamu için, sen GitHub’da açıksın |
 
 Yabancıya 5 ve 7 404 verebilir. Hesabın açıksa sen geçersin.
+

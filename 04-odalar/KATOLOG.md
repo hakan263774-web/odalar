@@ -2,6 +2,8 @@
 
 Cephedeki odalar. Index cephedir. Tıklanınca odaya gider.
 
+Kenarda bir baskı artığı. Envanter çizik. Yeni oda yok.
+
 | no | oda | dosya | sayfa |
 |---|---|---|---|
 | 00 | kök | `00-kok/MANIFEST.md` | `docs/index.html` |

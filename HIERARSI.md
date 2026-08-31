@@ -19,7 +19,7 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 
 ## Ne kamu, ne kasa, ne gürültü
 
-**Kamu.** Bu repo. Profil README. Sayfalar. Metin. Estetik.
+**Kamu.** Bu repo. Profil README. Sayfalar. Metin. Estetik. Odalardaki unsurlar (tabak, boş mum, iz, kova, artığı, menteşe, damga). Kaynak kopyası değil.
 
 **Kasa.** `kimi-calisma` — Windows `integrity.exe`, SHA-256 mühür. Kaynak buraya kopyalanmaz. Ürün private kalır. Burada yalnızca oda: fikir, dürüstlük, isim. Kapı 07 kilitli durur; sen GitHub’da açıksın.
 
@@ -31,6 +31,7 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 - `linkedin.com/in/hakanuslu` — aynı.
 - `github.com/hakanuslu` — aynı.
 - İmza, sertifika, "güvenli PC" iddiası. Mühür bir oda. SAĞLAM bir şaka / uyarı.
+- Yeni oda. Yeni kapı numarası. Kart yığını.
 
 ## Baskı sırası
 
