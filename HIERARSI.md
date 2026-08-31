@@ -2,7 +2,7 @@
 
 Harita. Katmanlar üst üste; karışıklık değil, baskı.
 
-Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
+Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar. Cephe sokaktır.
 
 ## Katmanlar
 
@@ -15,11 +15,11 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 | `04-odalar` | katalog | evet | odaların listesi, sitenin iskeleti |
 | `05-kapilar` | kapılar | evet | dışarı: açık / gürültü / kilitli |
 | `06-basi` | bası | evet | zaman / ilk baskı; changelog değil |
-| `docs/` | cephe | evet | index = cephe; kamu ağaç görünür, kasa ağacı yok |
+| `docs/` | cephe | evet | GitHub Pages, sokak cephesi. Yeni oda yok. |
 
 ## Ne kamu, ne kasa, ne gürültü
 
-**Kamu.** Bu repo. Profil README. Sayfalar. Metin. Estetik.
+**Kamu.** Bu repo. Profil README. Sayfalar. Metin. Estetik. Odalardaki unsurlar (tabak, boş mum, iz, kova, artığı, menteşe, damga). Kaynak kopyası değil.
 
 **Kasa.** `kimi-calisma` — Windows `integrity.exe`, SHA-256 mühür. Kaynak buraya kopyalanmaz. Ürün private kalır. Burada yalnızca oda: fikir, dürüstlük, isim. Kapı 07 kilitli durur; sen GitHub’da açıksın.
 
@@ -31,7 +31,12 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 - `linkedin.com/in/hakanuslu` — aynı.
 - `github.com/hakanuslu` — aynı.
 - İmza, sertifika, "güvenli PC" iddiası. Mühür bir oda. SAĞLAM bir şaka / uyarı.
+- Yeni oda. Yeni kapı numarası. Kart yığını.
 
 ## Baskı sırası
 
-kök basılır. mühür basılmaz, işaretlenir. iz okunur. gürültü duyulur, sahiplenilmez. odalar durur. kapılar dışarı bakar. bası zamanı tutar; changelog değil.
+kök basılır. mühür basılmaz, işaretlenir. iz okunur. gürültü duyulur, sahiplenilmez. odalar durur — cephe sokaktır. kapılar dışarı bakar. bası zamanı tutar; changelog değil.
+
+## Cephe
+
+index = cephe; kamu ağaç görünür, kasa ağacı yok.

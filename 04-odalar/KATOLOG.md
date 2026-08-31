@@ -1,6 +1,8 @@
 # 04 odalar — katalog
 
-Cephedeki odalar. Index cephedir. Tıklanınca odaya gider.
+Cephedeki odalar. Index cephedir. Şehir bir sokak cephesi — kart yığını değil. Tıklanınca odaya gider.
+
+Kenarda bir baskı artığı. Envanter çizik. Yeni oda yok.
 
 | no | oda | dosya | sayfa |
 |---|---|---|---|
