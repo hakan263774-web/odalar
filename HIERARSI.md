@@ -35,3 +35,7 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 ## Baskı sırası
 
 kök basılır. mühür basılmaz, işaretlenir. iz okunur. gürültü duyulur, sahiplenilmez. odalar durur. kapılar dışarı bakar. bası zamanı tutar; changelog değil.
+
+## Cephe
+
+index = cephe; kamu ağaç görünür, kasa ağacı yok.
