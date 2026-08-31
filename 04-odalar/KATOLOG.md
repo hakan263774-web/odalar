@@ -1,6 +1,6 @@
 # 04 odalar — katalog
 
-Şehirdeki odalar. Tıklanınca sayfasına gider.
+Cephedeki odalar. Index cephedir. Tıklanınca odaya gider.
 
 | no | oda | dosya | sayfa |
 |---|---|---|---|
@@ -8,7 +8,7 @@
 | 01 | mühür | `01-muhur/OKU.md` | `docs/muhur.html` |
 | 02 | iz | `02-iz/OKU.md` | `docs/iz.html` |
 | 03 | gürültü | `03-gurultu/PARCALAR.md` | `docs/gurultu.html` |
-| 04 | odalar | `04-odalar/KATOLOG.md` | `docs/index.html#katalog` |
+| 04 | odalar | `04-odalar/KATOLOG.md` | `docs/index.html` (cephe) |
 | 05 | kapılar | `05-kapilar/KAPILAR.md` | `docs/kapilar.html` |
 | 06 | bası | `06-basi/OKU.md` | `docs/basi.html` |
 

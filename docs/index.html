@@ -3,65 +3,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>odalar — kaosun estetiği</title>
-  <meta name="description" content="Bir kişi, birkaç oda. Kamu izi: hakan263774-web. Mühür private. higress gürültü.">
+  <title>odalar — cephe</title>
+  <meta name="description" content="Bir kişi, birkaç oda. Cephe odalardan. Kamu izi: hakan263774-web. Mühür private. higress gürültü.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="cephe">
   <div class="grain" aria-hidden="true"></div>
   <div class="stains" aria-hidden="true"></div>
 
-  <div class="wrap">
-    <nav class="strip" aria-label="koridor">
-      <span class="back">şehir</span>
-      <a class="to-doors" href="kapilar.html">kapılar →</a>
-    </nav>
-    <header class="mast">
-      <p class="kicker">00 kök · hakan263774-web</p>
-      <h1 class="word misreg" data-text="ODALAR">ODALAR</h1>
-      <p class="collide">kaosun estetiği<span class="frag" lang="la">non composita · tamen composita</span></p>
-    </header>
+  <div class="street-scene">
+    <span class="lamp" aria-hidden="true">
+      <span class="post"></span>
+      <span class="arm"></span>
+      <span class="lantern"></span>
+      <span class="pool"></span>
+    </span>
 
-    <nav class="city" id="katalog" aria-label="şehirdeki odalar">
-      <a class="room r00" href="index.html">
-        <span class="no">00</span>
-        <h2>kök</h2>
-        <p>bir kişi. birçok oda. kaos kompozisyon — dağınıklık değil.</p>
-      </a>
-      <a class="room r01" href="muhur.html">
-        <span class="no">01</span>
-        <h2>mühür</h2>
-        <p>imza değil. kaynak burada yok. kasa: kimi-calisma.</p>
-      </a>
-      <a class="room r02" href="iz.html">
-        <span class="no">02</span>
-        <h2>iz</h2>
-        <p>tek kamu izi. github taze. başka Hakan’ın siteleri yok.</p>
-      </a>
-      <a class="room r03" href="gurultu.html">
-        <span class="no">03</span>
-        <h2>gürültü</h2>
-        <p>higress çatalı. kimlik değil. iz katmanında parazit.</p>
-      </a>
-      <a class="room r04" href="#katalog">
-        <span class="no">04</span>
-        <h2>odalar</h2>
-        <p>katalog. şehir bu. tıkla, odaya gir.</p>
-      </a>
-      <a class="room r05" href="kapilar.html">
-        <span class="no">05</span>
-        <h2>kapılar</h2>
-        <p>dışarı. açık, gürültü, kilitli. yürü.</p>
-      </a>
-      <a class="room r06" href="basi.html">
-        <span class="no">06</span>
-        <h2>bası</h2>
-        <p>zaman. ilk baskı kurudu. changelog değil.</p>
-      </a>
-    </nav>
+    <article class="facade" id="cephe" aria-label="sokak cephesi">
+      <span class="parapet" aria-hidden="true"></span>
+      <span class="quoin q-l" aria-hidden="true"></span>
+      <span class="quoin q-r" aria-hidden="true"></span>
+
+      <header class="cornice">
+        <p class="sign">hakan263774-web</p>
+        <h1 class="word misreg" data-text="ODALAR">ODALAR</h1>
+        <p class="motto">kaosun estetiği<span class="frag" lang="la">non composita · tamen composita</span></p>
+      </header>
+
+      <section class="storey storey-upper" aria-label="üst kat">
+        <a class="win w00" href="index.html">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">00</span>
+            <h2>kök</h2>
+            <p>bir kişi. birçok oda. kaos kompozisyon — dağınıklık değil.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+        <a class="win w04 muntin" href="#cephe">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">04</span>
+            <h2>odalar</h2>
+            <p>katalog. cephe bu. tıkla, odaya gir.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+        <a class="win w06" href="basi.html">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">06</span>
+            <h2>bası</h2>
+            <p>zaman. ilk baskı kurudu. changelog değil.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="storey storey-mid" aria-label="orta kat">
+        <a class="win w02" href="iz.html">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">02</span>
+            <h2>iz</h2>
+            <p>tek kamu izi. github taze. başka Hakan’ın siteleri yok.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+        <a class="win w01 barred" href="muhur.html">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="shutter" aria-hidden="true"></span>
+          <span class="bars" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">01</span>
+            <h2>mühür</h2>
+            <p>imza değil. kaynak burada yok. kasa: kimi-calisma.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+        <a class="win w03 glitched" href="gurultu.html">
+          <span class="lintel" aria-hidden="true"></span>
+          <span class="glass">
+            <span class="no">03</span>
+            <h2>gürültü</h2>
+            <p>higress çatalı. kimlik değil. iz katmanında parazit.</p>
+          </span>
+          <span class="sill" aria-hidden="true"></span>
+        </a>
+      </section>
+
+      <section class="storey storey-ground" aria-label="zemin kat">
+        <span class="blind" aria-hidden="true"></span>
+        <a class="portal w05" href="kapilar.html">
+          <span class="transom"><span class="no">05</span> kapılar</span>
+          <span class="leaf">
+            <span class="knob" aria-hidden="true"></span>
+            <h2>kapılar</h2>
+            <p>dışarı. açık, gürültü, kilitli. yürü.</p>
+          </span>
+          <span class="step" aria-hidden="true"></span>
+        </a>
+        <span class="blind" aria-hidden="true"></span>
+      </section>
+
+      <div class="plinth" aria-hidden="true"></div>
+    </article>
+
+    <aside class="agac" id="agac" aria-label="kamu odaları ağacı">
+      <span class="canopy" aria-hidden="true"></span>
+      <span class="screw s1" aria-hidden="true"></span>
+      <span class="screw s2" aria-hidden="true"></span>
+      <span class="screw s3" aria-hidden="true"></span>
+      <span class="screw s4" aria-hidden="true"></span>
+      <p class="agac-kicker">kamu ağaç</p>
+      <p class="agac-note">kasa ağacı yok</p>
+      <nav class="carve" aria-label="odalar hiyerarşisi">
+        <p class="root-name">odalar</p>
+        <ul class="limbs">
+          <li class="limb live l00">
+            <a href="index.html">
+              <span class="nm">00-kok</span>
+            </a>
+          </li>
+          <li class="limb pruned l01">
+            <a href="muhur.html">
+              <span class="nm">01-muhur</span>
+              <span class="scar">budanmış dal: işaret, kaynak yok</span>
+            </a>
+          </li>
+          <li class="limb live l02">
+            <a href="iz.html">
+              <span class="nm">02-iz</span>
+            </a>
+          </li>
+          <li class="limb parasite l03">
+            <a href="gurultu.html">
+              <span class="nm">03-gurultu</span>
+              <span class="scar">parazit</span>
+            </a>
+          </li>
+          <li class="limb live l04">
+            <a href="#cephe">
+              <span class="nm">04-odalar</span>
+            </a>
+          </li>
+          <li class="limb live l05">
+            <a href="kapilar.html">
+              <span class="nm">05-kapilar</span>
+            </a>
+          </li>
+          <li class="limb live l06">
+            <a href="basi.html">
+              <span class="nm">06-basi</span>
+            </a>
+          </li>
+          <li class="limb live last l-docs">
+            <a href="#cephe">
+              <span class="nm">docs/</span>
+              <span class="scar">şehir / cephe</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="pavement" aria-hidden="true">
+      <span class="curb"></span>
+      <span class="gutter"></span>
+      <span class="cobble"></span>
+    </div>
   </div>
 
   <aside class="seal" aria-label="damga">
