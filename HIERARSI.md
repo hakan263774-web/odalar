@@ -13,15 +13,16 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 | `02-iz` | iz | evet | tek hesap: `github.com/hakan263774-web` |
 | `03-gurultu` | gürültü | evet | `higress` çatalı — kimlik değil |
 | `04-odalar` | katalog | evet | odaların listesi, sitenin iskeleti |
+| `05-kapilar` | kapılar | evet | dışarı: açık / gürültü / kilitli |
 | `docs/` | şehir | evet | GitHub Pages, `main` / `docs` |
 
 ## Ne kamu, ne kasa, ne gürültü
 
 **Kamu.** Bu repo. Profil README. Sayfalar. Metin. Estetik.
 
-**Kasa.** `kimi-calisma` — Windows `integrity.exe`, SHA-256 mühür. Kaynak buraya kopyalanmaz. Ürün private kalır. Burada yalnızca oda: fikir, dürüstlük, isim.
+**Kasa.** `kimi-calisma` — Windows `integrity.exe`, SHA-256 mühür. Kaynak buraya kopyalanmaz. Ürün private kalır. Burada yalnızca oda: fikir, dürüstlük, isim. Kapı 07 kilitli durur; sen GitHub’da açıksın.
 
-**Gürültü.** `hakan263774-web/higress` — AI Gateway çatalı. İz katmanında parazit. Portföy maddesi değil.
+**Gürültü.** `hakan263774-web/higress` — AI Gateway çatalı. İz katmanında parazit. Portföy maddesi değil. Kapı 06 aynı: gürültü, kimlik değil.
 
 ## Ne bu ağaçta yok
 
@@ -32,4 +33,4 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 
 ## Baskı sırası
 
-kök basılır. mühür basılmaz, işaretlenir. iz okunur. gürültü duyulur, sahiplenilmez. odalar durur.
+kök basılır. mühür basılmaz, işaretlenir. iz okunur. gürültü duyulur, sahiplenilmez. odalar durur. kapılar dışarı bakar.
