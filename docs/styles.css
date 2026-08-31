@@ -237,6 +237,7 @@ a:hover { color: var(--ox-hot); }
 .r03 { grid-column: 7 / 13; z-index: 6; transform: rotate(5.1deg);  margin-top: 1rem; }
 .r04 { grid-column: 3 / 11; z-index: 4; transform: rotate(-3.7deg); margin-top: -1.6rem; }
 .r05 { grid-column: 1 / 7;  z-index: 7; transform: rotate(2.1deg);  margin-top: -0.6rem; }
+.r06 { grid-column: 6 / 13; z-index: 8; transform: rotate(-2.8deg); margin-top: 0.8rem; margin-left: -4%; }
 
 .is { color: var(--brass); font-size: 0.85em; }
 
@@ -457,6 +458,8 @@ a:hover { color: var(--ox-hot); }
 .d5 { grid-column: 1 / 8;  z-index: 3; transform: rotate(-4.4deg); margin-top: -0.6rem; }
 .d6 { grid-column: 5 / 13; z-index: 6; transform: rotate(-4.8deg) skewX(-2deg); margin-top: 0.2rem; }
 .d7 { grid-column: 3 / 11; z-index: 7; transform: rotate(3.3deg);  margin-top: 1.4rem; }
+.d8 { grid-column: 7 / 13; z-index: 5; transform: rotate(2.4deg);  margin-top: -0.8rem; }
+.d9 { grid-column: 1 / 8;  z-index: 6; transform: rotate(-5.2deg) skewX(-1deg); margin-top: 0.6rem; }
 
 /* inner pages */
 .page .mast { min-height: 28vh; }
@@ -607,7 +610,7 @@ a:hover { color: var(--ox-hot); }
     font-size: 1rem;
   }
   .city { margin-top: 1rem; padding-bottom: 7rem; }
-  .r00, .r01, .r02, .r03, .r04, .r05 {
+  .r00, .r01, .r02, .r03, .r04, .r05, .r06 {
     grid-column: 1 / -1;
     margin: 0.4rem 0;
     transform: rotate(-1.4deg);
@@ -616,8 +619,9 @@ a:hover { color: var(--ox-hot); }
   .r03 { transform: rotate(3deg); margin-left: 8%; width: 92%; }
   .r04 { transform: rotate(-2deg); }
   .r05 { transform: rotate(1.6deg); margin-left: 4%; width: 96%; }
+  .r06 { transform: rotate(-2.1deg); margin-left: 7%; width: 93%; }
   .k-acik, .k-gurultu, .k-kilit { grid-column: 1 / -1; margin: 0.8rem 0 0.2rem; transform: none; }
-  .d1, .d2, .d3, .d4, .d5, .d6, .d7 {
+  .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9 {
     grid-column: 1 / -1;
     margin: 0.45rem 0;
     margin-left: 0;
@@ -629,6 +633,8 @@ a:hover { color: var(--ox-hot); }
   .d5 { transform: rotate(-2.4deg); }
   .d6 { transform: rotate(-3.2deg) skewX(-1deg); margin-left: 8%; width: 92%; }
   .d7 { transform: rotate(1.8deg); }
+  .d8 { transform: rotate(2.2deg); margin-left: 6%; width: 94%; }
+  .d9 { transform: rotate(-2.8deg) skewX(-1deg); margin-left: 9%; width: 91%; }
   .sheet .body, .sheet .aside { grid-column: 1 / -1; transform: none; }
   .sheet .aside { margin-top: 1.4rem; }
   .seal { right: 0.5rem; bottom: 0.5rem; transform: scale(0.86) rotate(8deg); }
