@@ -15,7 +15,7 @@ Bu ağaç bir özgeçmiş değil. Bir şehir planı da değil. Odalar.
 | `04-odalar` | katalog | evet | odaların listesi, sitenin iskeleti |
 | `05-kapilar` | kapılar | evet | dışarı: açık / gürültü / kilitli |
 | `06-basi` | bası | evet | zaman / ilk baskı; changelog değil |
-| `docs/` | cephe | evet | index = cephe; kamu ağaç görünür, kasa ağacı yok |
+| `docs/` | cephe | evet | GitHub Pages, `main` / `docs` — index cephe |
 
 ## Ne kamu, ne kasa, ne gürültü
 
