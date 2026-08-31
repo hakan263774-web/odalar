@@ -674,6 +674,239 @@ a:hover { color: var(--ox-hot); }
   box-shadow: inset 0 1px 0 rgba(198, 161, 92, 0.25);
 }
 
+/* carved public tree — letterpress plaque, not a <pre> dump.
+   kasa / integrity / hash.go / tree.go do not live here. */
+.agac {
+  position: relative;
+  z-index: 5;
+  align-self: end;
+  margin: 0 0 0.15rem -0.85rem;
+  padding: 1.05rem 0.85rem 1.15rem 0.95rem;
+  color: var(--ivory);
+  background:
+    radial-gradient(ellipse 80% 40% at 20% 0%, rgba(122, 30, 39, 0.28), transparent 55%),
+    repeating-linear-gradient(180deg, rgba(42, 28, 18, 0.35) 0 11px, rgba(16, 10, 8, 0.2) 11px 12px),
+    linear-gradient(168deg, #24180f 0%, #140e0a 48%, #0e0a08 100%);
+  border: 1px solid rgba(198, 161, 92, 0.42);
+  box-shadow:
+    0 18px 36px rgba(0, 0, 0, 0.48),
+    inset 0 0 0 1px rgba(198, 161, 92, 0.12),
+    inset 0 0 40px rgba(8, 4, 2, 0.45);
+  clip-path: polygon(
+    4% 1.5%, 92% 0%, 100% 6%, 98.5% 48%, 100% 94%,
+    91% 100%, 8% 98.5%, 0% 92%, 1.6% 52%, 0% 8%
+  );
+  transform: rotate(1.8deg);
+  overflow: hidden;
+}
+.agac .canopy {
+  position: absolute;
+  left: -18%;
+  right: -22%;
+  top: -16%;
+  height: 38%;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 42% 55% at 28% 62%, rgba(122, 30, 39, 0.55), transparent 70%),
+    radial-gradient(ellipse 36% 50% at 62% 48%, rgba(58, 34, 22, 0.7), transparent 68%),
+    radial-gradient(ellipse 30% 40% at 78% 70%, rgba(20, 12, 8, 0.65), transparent 70%);
+  mix-blend-mode: multiply;
+  transform: rotate(-8deg);
+}
+.agac .screw {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, #eadcc6, var(--brass) 40%, var(--brass-dim));
+  box-shadow: 0 1px 0 #1a1008, inset 0 0 0 1px rgba(26, 16, 8, 0.35);
+  z-index: 3;
+}
+.agac .screw::after {
+  content: "";
+  position: absolute;
+  inset: 35% 15%;
+  background: #2a1c10;
+  transform: rotate(28deg);
+  opacity: 0.7;
+}
+.agac .s1 { top: 10px; left: 10px; }
+.agac .s2 { top: 12px; right: 12px; }
+.agac .s3 { bottom: 12px; left: 11px; }
+.agac .s4 { bottom: 14px; right: 13px; }
+.agac-kicker {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.62rem;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--brass);
+  transform: rotate(-2.4deg);
+}
+.agac-note {
+  position: relative;
+  z-index: 2;
+  margin: 0.12rem 0 0.55rem;
+  font-family: var(--sans);
+  font-size: 0.58rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ox-hot);
+  transform: rotate(1.6deg);
+}
+.agac .carve {
+  position: relative;
+  z-index: 2;
+  padding: 0.15rem 0 0.2rem 1.05rem;
+}
+.agac .carve::before {
+  content: "";
+  position: absolute;
+  left: 0.28rem;
+  top: 1.35rem;
+  bottom: 0.55rem;
+  width: 4px;
+  background:
+    linear-gradient(180deg, var(--brass) 0%, var(--brass-dim) 18%, #3a2216 52%, var(--ox) 78%, #1a100c 100%);
+  box-shadow: 1px 0 0 rgba(8, 4, 2, 0.7), inset 1px 0 0 rgba(234, 220, 198, 0.18);
+  border-radius: 2px 1px 0 0;
+}
+.root-name {
+  margin: 0 0 0.35rem -0.15rem;
+  font-family: var(--sans);
+  font-weight: 800;
+  font-size: 1.35rem;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  text-transform: lowercase;
+  color: var(--ivory);
+  text-shadow: 2px 0 var(--mis-r), -1px 0 var(--mis-c);
+  transform: rotate(-1.1deg);
+}
+.agac .limbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.agac .limb {
+  position: relative;
+  margin: 0;
+  padding: 0.12rem 0 0.12rem 0.15rem;
+}
+.agac .limb::before {
+  content: "";
+  position: absolute;
+  left: -0.78rem;
+  top: 0.72em;
+  width: 0.82rem;
+  height: 2px;
+  background: linear-gradient(90deg, var(--brass-dim), var(--brass));
+  box-shadow: 0 1px 0 #120c08;
+}
+.agac .limb::after {
+  content: "";
+  position: absolute;
+  left: -0.05rem;
+  top: 0.58em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--brass);
+  box-shadow: 0 1px 0 #120c08;
+}
+.agac .limb a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  padding: 0.08rem 0.15rem 0.12rem;
+  line-height: 1.15;
+}
+.agac .limb .nm {
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 0.92rem;
+  letter-spacing: -0.03em;
+  color: var(--ivory);
+}
+.agac .limb .scar {
+  display: block;
+  margin-top: 0.08rem;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+  color: var(--ivory-dim);
+  max-width: 22ch;
+}
+.agac .limb a:hover,
+.agac .limb a:focus-visible {
+  color: var(--ivory);
+  outline: none;
+}
+.agac .limb a:hover .nm,
+.agac .limb a:focus-visible .nm {
+  text-shadow: 2px 0 var(--mis-r), -2px 0 var(--mis-c);
+  color: var(--brass);
+}
+.agac .l00 { transform: rotate(-1.4deg); }
+.agac .l01 { transform: rotate(1.8deg); margin-left: 0.15rem; }
+.agac .l02 { transform: rotate(-0.6deg); }
+.agac .l03 { transform: rotate(2.4deg); margin-left: 0.2rem; }
+.agac .l04 { transform: rotate(-1.1deg); }
+.agac .l05 { transform: rotate(0.9deg); }
+.agac .l06 { transform: rotate(-1.8deg); }
+.agac .l-docs { transform: rotate(1.2deg); margin-top: 0.12rem; }
+
+.agac .limb.pruned::before {
+  width: 0.42rem;
+  background: repeating-linear-gradient(90deg, var(--ox) 0 3px, transparent 3px 5px);
+  transform: rotate(-18deg);
+  transform-origin: left center;
+}
+.agac .limb.pruned::after {
+  background: var(--ox-hot);
+  clip-path: polygon(0 40%, 70% 0, 100% 50%, 70% 100%, 0 60%);
+  border-radius: 0;
+  width: 8px;
+  height: 8px;
+  top: 0.48em;
+}
+.agac .limb.pruned .nm {
+  color: var(--ivory-dim);
+  text-decoration: line-through;
+  text-decoration-color: var(--ox);
+  text-decoration-thickness: 1px;
+}
+.agac .limb.pruned .scar { color: var(--ox-hot); }
+.agac .limb.pruned a:hover .nm {
+  text-decoration: none;
+  color: var(--ivory);
+}
+
+.agac .limb.parasite::before {
+  background: linear-gradient(90deg, var(--mis-c), var(--mis-r));
+  transform: skewX(-18deg);
+}
+.agac .limb.parasite::after {
+  background: var(--mis-c);
+  box-shadow: 2px 0 0 var(--mis-r);
+}
+.agac .limb.parasite .nm {
+  letter-spacing: -0.06em;
+  text-shadow: 2px 0 var(--mis-r), -2px 0 var(--mis-c);
+}
+.agac .limb.parasite .scar { color: var(--mis-c); }
+
+.agac .limb.last::before {
+  width: 0.82rem;
+  height: 2px;
+}
+.agac .limb.last .nm { color: var(--brass); }
+
 .pavement {
   position: relative;
   z-index: 2;
@@ -1091,7 +1324,7 @@ a:hover { color: var(--ox-hot); }
       "facade"
       "agac"
       "pave";
-    row-gap: 0;
+    row-gap: 0.7rem;
   }
   .lamp { display: none; }
   .facade { transform: rotate(-0.15deg); }
@@ -1145,240 +1378,5 @@ a:hover { color: var(--ox-hot); }
 
 @media (prefers-reduced-motion: reduce) {
   .grain, .seal, .win.glitched { animation: none; }
-  .room, .door, .win, .portal { transition: none; }
+  .room, .door, .win, .portal, .agac .limb { transition: none; }
 }
-
-   kasa / integrity / hash.go / tree.go do not live here. */
-.agac {
-  position: relative;
-  z-index: 5;
-  align-self: end;
-  margin: 0 0 0.15rem -0.85rem;
-  padding: 1.05rem 0.85rem 1.15rem 0.95rem;
-  color: var(--ivory);
-  background:
-    radial-gradient(ellipse 80% 40% at 20% 0%, rgba(122, 30, 39, 0.28), transparent 55%),
-    repeating-linear-gradient(180deg, rgba(42, 28, 18, 0.35) 0 11px, rgba(16, 10, 8, 0.2) 11px 12px),
-    linear-gradient(168deg, #24180f 0%, #140e0a 48%, #0e0a08 100%);
-  border: 1px solid rgba(198, 161, 92, 0.42);
-  box-shadow:
-    0 18px 36px rgba(0, 0, 0, 0.48),
-    inset 0 0 0 1px rgba(198, 161, 92, 0.12),
-    inset 0 0 40px rgba(8, 4, 2, 0.45);
-  clip-path: polygon(
-    4% 1.5%, 92% 0%, 100% 6%, 98.5% 48%, 100% 94%,
-    91% 100%, 8% 98.5%, 0% 92%, 1.6% 52%, 0% 8%
-  );
-  transform: rotate(1.8deg);
-  overflow: hidden;
-}
-.agac .canopy {
-  position: absolute;
-  left: -18%;
-  right: -22%;
-  top: -16%;
-  height: 38%;
-  pointer-events: none;
-  background:
-    radial-gradient(ellipse 42% 55% at 28% 62%, rgba(122, 30, 39, 0.55), transparent 70%),
-    radial-gradient(ellipse 36% 50% at 62% 48%, rgba(58, 34, 22, 0.7), transparent 68%),
-    radial-gradient(ellipse 30% 40% at 78% 70%, rgba(20, 12, 8, 0.65), transparent 70%);
-  mix-blend-mode: multiply;
-  transform: rotate(-8deg);
-}
-.agac .screw {
-  position: absolute;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background:
-    radial-gradient(circle at 35% 30%, #eadcc6, var(--brass) 40%, var(--brass-dim));
-  box-shadow: 0 1px 0 #1a1008, inset 0 0 0 1px rgba(26, 16, 8, 0.35);
-  z-index: 3;
-}
-.agac .screw::after {
-  content: "";
-  position: absolute;
-  inset: 35% 15%;
-  background: #2a1c10;
-  transform: rotate(28deg);
-  opacity: 0.7;
-}
-.agac .s1 { top: 10px; left: 10px; }
-.agac .s2 { top: 12px; right: 12px; }
-.agac .s3 { bottom: 12px; left: 11px; }
-.agac .s4 { bottom: 14px; right: 13px; }
-.agac-kicker {
-  position: relative;
-  z-index: 2;
-  margin: 0;
-  font-family: var(--sans);
-  font-weight: 700;
-  font-size: 0.62rem;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-  color: var(--brass);
-  transform: rotate(-2.4deg);
-}
-.agac-note {
-  position: relative;
-  z-index: 2;
-  margin: 0.12rem 0 0.55rem;
-  font-family: var(--sans);
-  font-size: 0.58rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--ox-hot);
-  transform: rotate(1.6deg);
-}
-.agac .carve {
-  position: relative;
-  z-index: 2;
-  padding: 0.15rem 0 0.2rem 1.05rem;
-}
-.agac .carve::before {
-  content: "";
-  position: absolute;
-  left: 0.28rem;
-  top: 1.35rem;
-  bottom: 0.55rem;
-  width: 4px;
-  background:
-    linear-gradient(180deg, var(--brass) 0%, var(--brass-dim) 18%, #3a2216 52%, var(--ox) 78%, #1a100c 100%);
-  box-shadow: 1px 0 0 rgba(8, 4, 2, 0.7), inset 1px 0 0 rgba(234, 220, 198, 0.18);
-  border-radius: 2px 1px 0 0;
-}
-.root-name {
-  margin: 0 0 0.35rem -0.15rem;
-  font-family: var(--sans);
-  font-weight: 800;
-  font-size: 1.35rem;
-  line-height: 0.9;
-  letter-spacing: -0.05em;
-  text-transform: lowercase;
-  color: var(--ivory);
-  text-shadow: 2px 0 var(--mis-r), -1px 0 var(--mis-c);
-  transform: rotate(-1.1deg);
-}
-.agac .limbs {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.agac .limb {
-  position: relative;
-  margin: 0;
-  padding: 0.12rem 0 0.12rem 0.15rem;
-}
-.agac .limb::before {
-  content: "";
-  position: absolute;
-  left: -0.78rem;
-  top: 0.72em;
-  width: 0.82rem;
-  height: 2px;
-  background: linear-gradient(90deg, var(--brass-dim), var(--brass));
-  box-shadow: 0 1px 0 #120c08;
-}
-.agac .limb::after {
-  content: "";
-  position: absolute;
-  left: -0.05rem;
-  top: 0.58em;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--brass);
-  box-shadow: 0 1px 0 #120c08;
-}
-.agac .limb a {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-  padding: 0.08rem 0.15rem 0.12rem;
-  line-height: 1.15;
-}
-.agac .limb .nm {
-  font-family: var(--sans);
-  font-weight: 700;
-  font-size: 0.92rem;
-  letter-spacing: -0.03em;
-  color: var(--ivory);
-}
-.agac .limb .scar {
-  display: block;
-  margin-top: 0.08rem;
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 0.72rem;
-  letter-spacing: 0.01em;
-  color: var(--ivory-dim);
-  max-width: 22ch;
-}
-.agac .limb a:hover,
-.agac .limb a:focus-visible {
-  color: var(--ivory);
-  outline: none;
-}
-.agac .limb a:hover .nm,
-.agac .limb a:focus-visible .nm {
-  text-shadow: 2px 0 var(--mis-r), -2px 0 var(--mis-c);
-  color: var(--brass);
-}
-.agac .l00 { transform: rotate(-1.4deg); }
-.agac .l01 { transform: rotate(1.8deg); margin-left: 0.15rem; }
-.agac .l02 { transform: rotate(-0.6deg); }
-.agac .l03 { transform: rotate(2.4deg); margin-left: 0.2rem; }
-.agac .l04 { transform: rotate(-1.1deg); }
-.agac .l05 { transform: rotate(0.9deg); }
-.agac .l06 { transform: rotate(-1.8deg); }
-.agac .l-docs { transform: rotate(1.2deg); margin-top: 0.12rem; }
-
-.agac .limb.pruned::before {
-  width: 0.42rem;
-  background: repeating-linear-gradient(90deg, var(--ox) 0 3px, transparent 3px 5px);
-  transform: rotate(-18deg);
-  transform-origin: left center;
-}
-.agac .limb.pruned::after {
-  background: var(--ox-hot);
-  clip-path: polygon(0 40%, 70% 0, 100% 50%, 70% 100%, 0 60%);
-  border-radius: 0;
-  width: 8px;
-  height: 8px;
-  top: 0.48em;
-}
-.agac .limb.pruned .nm {
-  color: var(--ivory-dim);
-  text-decoration: line-through;
-  text-decoration-color: var(--ox);
-  text-decoration-thickness: 1px;
-}
-.agac .limb.pruned .scar { color: var(--ox-hot); }
-.agac .limb.pruned a:hover .nm {
-  text-decoration: none;
-  color: var(--ivory);
-}
-
-.agac .limb.parasite::before {
-  background: linear-gradient(90deg, var(--mis-c), var(--mis-r));
-  transform: skewX(-18deg);
-}
-.agac .limb.parasite::after {
-  background: var(--mis-c);
-  box-shadow: 2px 0 0 var(--mis-r);
-}
-.agac .limb.parasite .nm {
-  letter-spacing: -0.06em;
-  text-shadow: 2px 0 var(--mis-r), -2px 0 var(--mis-c);
-}
-.agac .limb.parasite .scar { color: var(--mis-c); }
-
-.agac .limb.last::before {
-  width: 0.82rem;
-  height: 2px;
-}
-.agac .limb.last .nm { color: var(--brass); }
-
-.pavement {
-  position: relative;
