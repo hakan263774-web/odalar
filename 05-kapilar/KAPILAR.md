@@ -13,12 +13,14 @@ Gerçek href. Yürü.
 | 3 | Profil | https://github.com/hakan263774-web | tek kamu izi |
 | 4 | İnceleme | https://github.com/hakan263774-web/odalar/issues/1 | GitHub’daki diğeri için |
 | 5 | Harita | https://github.com/hakan263774-web/kimi-calisma/issues/3 | kasa kapısı: private, senin hesabın açık |
+| 8 | Profil README | https://github.com/hakan263774-web/hakan263774-web | iz'in GitHub yüzü |
 
 ## Gürültü
 
 | no | kapı | nere | not |
 |---|---|---|---|
 | 6 | higress çatal | https://github.com/hakan263774-web/higress | gürültü. kimlik değil. |
+| 9 | jupyter | https://github.com/hakan263774-web/codespaces-jupyter | gürültü. beceri değil. |
 
 ## Kilitli
 
