@@ -16,6 +16,7 @@ Menteşe isli. Anahtar uymuyor. Tablo şişmez.
 | 4 | İnceleme | https://github.com/hakan263774-web/odalar/issues/1 | GitHub’daki diğeri için |
 | 5 | Harita | https://github.com/hakan263774-web/kimi-calisma/issues/3 | kasa kapısı: private, senin hesabın açık |
 | 8 | Profil README | https://github.com/hakan263774-web/hakan263774-web | iz'in GitHub yüzü |
+| 10 | OpenRouter | https://openrouter.ai/docs/guides/routing/provider-selection | provider seçimi. key yok. yönlendirme mühür değil. |
 
 ## Gürültü
 
